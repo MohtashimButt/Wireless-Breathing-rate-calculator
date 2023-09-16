@@ -13,3 +13,9 @@ We have two kinds of datasets:
 ***
 * Dataset for a static person (`Staticbreathing.csv`)
 * [Dataset for a person who's non-static i.e., contantly moving (`NonStaticbreathing.csv`)
+
+## Phase Jupms
+Imagine that the person is static, corresponding to which one measures a phase of let’s say $90$ degrees. As the person starts moving closer to the reader, the distance that the wave has to travel decreases and as a result the measured phase of the wave starts decreasing as well. What happens to the phase (read angle) as it continues to decrease and reaches $0$ degrees? Any further decrease wraps the angle back to $360$ degrees causing a sudden jump of $+360$ degrees ($+2π$ radians) and then starts decreasing again from a starting point of 360 degrees. 
+
+Similarly, if the person starts moving away from the reader, the angle starts increasing and any increase beyond $360$ degree wraps it back to $0$ degrees and then starts increasing from $0$ degrees. This will manifest itself as a sudden jump of $-360$ degrees ($-2π$ radians) in the sense that the angle changes from $360$ degrees back to $0$ degrees. In summary, due to the wrap-around effect of phase/angles, the phase measurement signal may have these abrupt changes of $± 360$ degrees (or $± 2𝜋$ radians) that must be removed for our signal processing algorithms to make sense of the trends. 
+![staticRaw](https://github.com/MohtashimButt/Wireless-Breathing-rate-calculator/assets/87702903/857ff9a4-6282-4523-a1e0-1df272e33e8b)
