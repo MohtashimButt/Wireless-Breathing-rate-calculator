@@ -19,6 +19,7 @@ Imagine that the person is static, corresponding to which one measures a phase o
 
 Similarly, if the person starts moving away from the reader, the angle starts increasing and any increase beyond $360$ degree wraps it back to $0$ degrees and then starts increasing from $0$ degrees. This will manifest itself as a sudden jump of $-360$ degrees ($-2π$ radians) in the sense that the angle changes from $360$ degrees back to $0$ degrees. In summary, due to the wrap-around effect of phase/angles, the phase measurement signal may have these abrupt changes of $± 360$ degrees (or $± 2𝜋$ radians) that must be removed for our signal processing algorithms to make sense of the trends. 
 
-![staticRaw](https://github.com/MohtashimButt/Wireless-Breathing-rate-calculator/assets/87702903/857ff9a4-6282-4523-a1e0-1df272e33e8b) ![nonstaticperson](https://github.com/MohtashimButt/Wireless-Breathing-rate-calculator/assets/87702903/9e482a61-652d-42ca-a2c0-bcb474c700fb)
+![staticRaw](https://github.com/MohtashimButt/Wireless-Breathing-rate-calculator/assets/87702903/857ff9a4-6282-4523-a1e0-1df272e33e8b) 
+![nonstaticperson](https://github.com/MohtashimButt/Wireless-Breathing-rate-calculator/assets/87702903/9e482a61-652d-42ca-a2c0-bcb474c700fb)
 
 As you can see in the plots above, static person's raw signals have very less phase jumps and non-static person has huge and frequent phase shifts
