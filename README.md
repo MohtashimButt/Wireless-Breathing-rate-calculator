@@ -1,2 +1,2 @@
 # Wireless-Breathing-rate-calculator
-An algorithm implemented on MATLAB for a computer to calculate breathing rate after receiving RFID signals from a person wearing RFID tags. 
+Developed a framework to track a subject’s breathing rate using data acquired from passive RFID tags pasted on the subject’s chest
