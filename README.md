@@ -10,9 +10,6 @@ For a Radio Frequency wave at frequency $f$ (Hz), the relation between frequency
 
 ## Dataset
 We have two kinds of datasets:
-$
-\begin{itemize}
-        \item Dataset for a static person (`Staticbreathing.csv`)
-        \item Dataset for a person who's non-static i.e., contantly moving (`NonStaticbreathing.csv`)
-\end{itemize}
-$
+***
+* Dataset for a static person (`Staticbreathing.csv`)
+* [Dataset for a person who's non-static i.e., contantly moving (`NonStaticbreathing.csv`)
